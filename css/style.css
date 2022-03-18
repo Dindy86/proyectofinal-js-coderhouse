@@ -296,6 +296,7 @@ main .main__container .ventana-modal .modal-content .contenedorBtnCarrito {
   align-content: center;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 30px;
 }
 main .main__container .ventana-modal .modal-content .contenedorBtnCarrito .btncarrito {
   width: 115px;
