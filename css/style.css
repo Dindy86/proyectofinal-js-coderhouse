@@ -1090,7 +1090,7 @@ main .main__container .section__item .containerItems .card-transition:hover {
 }
 .information .information__container .information__titulo {
   font-family: "Cormorant Garamond";
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-top: 2rem;
 }
@@ -1148,6 +1148,10 @@ main .main__container .section__item .containerItems .card-transition:hover {
 .container__titleParagraph-1 {
   width: 9.375rem !important;
   height: 1.875rem !important;
+}
+
+.separator__title {
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 768px) {
