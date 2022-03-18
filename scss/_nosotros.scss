@@ -1,0 +1,87 @@
+/*---------------------------------Nosotros.html-----------------------------*/
+.carousel{ 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .carousel-inner-1{
+    border-radius: 0.5rem;
+  }
+  .Containerquestion__aboutUs{
+    position: absolute;
+    border-color: rgb(255, 255, 255);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    .question__aboutUs{
+      font-size: 1.87rem;
+      font-weight: 600;
+      color: $color-primary;
+      border: 0.12rem solid white;
+    }
+  }
+}
+.information{
+  width: 98%;
+  margin: auto;
+  margin-top: 1.87rem;
+  .containerNosotros__image{
+    width: 95%;
+    margin: 0 auto;
+    .nosotros__image{
+      width: 100%;
+      height: 12.5rem;
+    }
+  }
+  .information__container{
+    text-align: center;
+    .information__titulo{
+      font-family: $fontFamily-primary;
+      font-size: 2.3rem;
+      font-weight: 900;
+      margin-top: 2rem;
+    }
+    .information__titulo-1{
+      color: $color-primary;
+    }
+    .information-paragraph{
+      line-height: 2rem;
+      font-size: 1.2rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.team__container{
+  background-color: $color-primary;
+  .team__container__title{
+    font-family: $fontFamily-primary;
+    font-weight: 900;
+  }
+}
+@media (min-width:768px) {
+  .carousel__column{
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .information{
+    margin-top: 1.87rem;
+    .containerNosotros__image{
+      .nosotros__image{
+        width: 25rem;
+        height: 18.75rem;
+        border-radius: 3.125rem;
+      }
+    }
+    .dindy{
+      .nosotros__paragraph{
+        position: absolute;
+        top: 9.375rem;
+        right: 3.125rem;
+      }
+    }
+  }
+}
+.cardTitle{
+  font-size: 20px;
+}

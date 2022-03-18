@@ -1,0 +1,16 @@
+.item__title-1{
+  padding-top: 0.625rem;
+}
+.separator-2{
+  margin-bottom:0.625rem!important;
+}
+.container__titleParagraph-1{
+  width: 9.375rem !important;
+  height: 1.875rem !important;
+}
+@media only screen and (min-width: 768px) {
+  .container__titleParagraph-1{
+    width: 18.75rem !important;
+    height: 3.125rem !important;
+  }
+}

@@ -1,0 +1,19 @@
+/*-------------------------Globals------------------------*/
+*{
+  margin-bottom: 0!important;
+  padding: 0;
+}
+/* apply a natural box layout model to all elements, but allowing components to change*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: sans-serif;
+  background: white;
+}

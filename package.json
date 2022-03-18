@@ -1,0 +1,9 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "Rose Tienda es mi proyecto final del curso JavaScript como estudiante de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  }
+}
