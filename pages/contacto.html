@@ -57,8 +57,8 @@
     <!----------------------------------------Main----------------------------------->
     <main id="principal">
       <div class="main__container"> 
-        <div>
-          <form id="formContact" class="formContact" action="https://formsubmit.co/ing.pierredindy@gmail.com" method="POST" target="_blank">
+        <div class="formContact-Contenedor">
+          <form id="formContact" class="formContact">
             <h1 id="tituloPrincipal" class="formContact__title">CONTACTO</h1>
             <input class="formContact__input" type="text" name="nombre" class="input-box" placeholder="Nombre" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
             <input class="formContact__input" type="email" name="correo" class="input-box" placeholder="Correo" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
@@ -66,6 +66,14 @@
             <textarea class="formContact__textarea" name="mensaje" placeholder="Escriba aqui su mensaje" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
             <input type="submit" value="ENVIAR" class="formContact__button">
           </form>  
+          <div class="contenedorFormLoaderEnvio">
+            <div id="formContact-contenedorLoader" class="formContact-loader">
+              <img src="../images/loader2.svg" alt="Cargando">
+            </div>
+            <div id="formContact-notificacionEnvio" class="formContact-response">
+              <p>¡Gracias por contactarnos!</p>
+            </div>
+          </div>
         </div>
         <section id ="idVentanaModal" class="ventana-modal">
           <div class="container-modal">

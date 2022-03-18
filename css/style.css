@@ -1164,7 +1164,6 @@ main .main__container .section__item .containerItems .card-transition:hover {
   padding: 0.62rem 1.25rem;
   box-sizing: border-box;
   margin-top: 3rem;
-  margin-bottom: 3rem !important;
   border-radius: 0.43rem;
 }
 .formContact .formContact__title {
@@ -1205,6 +1204,21 @@ main .main__container .section__item .containerItems .card-transition:hover {
 .formContact .formContact__button:hover {
   cursor: pointer;
   background-color: #415586;
+}
+
+.formContact-Contenedor .contenedorFormLoaderEnvio {
+  margin-top: 10px;
+  margin-bottom: 3rem !important;
+  display: flex;
+  justify-content: center;
+}
+.formContact-Contenedor .contenedorFormLoaderEnvio .formContact-loader,
+.formContact-Contenedor .contenedorFormLoaderEnvio .formContact-response {
+  position: absolute;
+  display: none;
+  color: wheat;
+  text-align: center;
+  color: black;
 }
 
 @media (min-width: 480px) {

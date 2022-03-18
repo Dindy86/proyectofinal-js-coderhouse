@@ -6,7 +6,6 @@
   padding: 0.62rem 1.25rem;
   box-sizing: border-box;
   margin-top: 3rem;
-  margin-bottom: 3rem !important;
   border-radius: 0.43rem;
   .formContact__title{
     color: $color-primary;
@@ -46,8 +45,26 @@
   .formContact__button:hover{
     cursor: pointer;
     background-color: $background-hover-btn;
+  } 
+}
+
+.formContact-Contenedor{
+  .contenedorFormLoaderEnvio {
+    margin-top: 10px;
+    margin-bottom: 3rem !important;
+    display: flex;
+    justify-content: center;
+    .formContact-loader,
+    .formContact-response {
+      position: absolute;
+      display: none;
+      color: wheat;
+      text-align: center;
+      color:black;
+    }
   }
 }
+
 @media (min-width:480px) {
   .formContact{
     width: 30rem;
