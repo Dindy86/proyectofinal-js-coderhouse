@@ -291,12 +291,13 @@ main .main__container .ventana-modal .modal-content .contenedorCarrito .table {
   font-size: 15px;
 }
 main .main__container .ventana-modal .modal-content .contenedorBtnCarrito {
+  padding-top: 16px;
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 main .main__container .ventana-modal .modal-content .contenedorBtnCarrito .btncarrito {
   width: 115px;

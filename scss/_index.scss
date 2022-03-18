@@ -273,12 +273,13 @@ main{
           }
         }
         .contenedorBtnCarrito {
+          padding-top: 16px;
           display: flex;
           justify-content: space-between;
           align-content: center;
           padding-left: 20px;
           padding-right: 20px;
-          padding-bottom: 30px;
+          padding-bottom: 40px;
           .btncarrito{
             width: 115px;
             height: 35px;
