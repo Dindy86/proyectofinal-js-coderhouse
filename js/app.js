@@ -402,6 +402,7 @@ linkBuscar.addEventListener("click", function () {
   }
 })
 
+
 formModalPago.addEventListener("submit", function(e) {
   e.preventDefault();
   const btnpagar = document.getElementById("btnpagar")

@@ -66,20 +66,6 @@ body {
   border: solid 0.1rem #e8a18880;
   padding: 0.12rem 0.18rem;
 }
-.mainHeader .mainContainer .row--primary .buscadorNotificacion {
-  position: absolute;
-  display: none;
-  color: white;
-  background-color: #e8a188;
-  width: 300px;
-  height: 30px;
-  right: 100px;
-  z-index: 10;
-  text-align: center;
-}
-.mainHeader .mainContainer .row--primary .buscadorNotificacion .notificacion {
-  padding-top: 5px;
-}
 .mainHeader .mainContainer .row--primary .contenedorNotificacion {
   position: absolute;
   display: none;
@@ -88,6 +74,7 @@ body {
   width: 230px;
   height: 30px;
   right: 0px;
+  top: 11px;
   z-index: 10;
   text-align: center;
 }
