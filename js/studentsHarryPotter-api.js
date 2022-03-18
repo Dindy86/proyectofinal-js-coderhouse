@@ -6,7 +6,7 @@ const nombreDirector = document.getElementById("nombreDirector");
 
 //Declaraciones de funciones
 function simuladorConsultaApiProductos () {
-  const URL = "http://hp-api.herokuapp.com/api/characters/students";
+  const URL = "https://hp-api.herokuapp.com/api/characters/students";
   $.ajax({
     type: "GET",
     url: URL,
