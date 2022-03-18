@@ -32,20 +32,6 @@
           padding: 0.12rem 0.18rem;
         }
       }
-      // .buscadorNotificacion {
-      //   position: absolute;
-      //   display: none;
-      //   color: white;
-      //   background-color: $color-secondary;
-      //   width: 300px;
-      //   height: 30px;
-      //   right:100px;
-      //   z-index: 10;
-      //   text-align: center;
-      //   .notificacion {
-      //     padding-top: 5px;
-      //   }
-      // }
       .contenedorNotificacion {
         position: absolute;
         display: none;
@@ -207,9 +193,7 @@ main{
                 color: white;
                 padding: 0.313rem;
                 text-decoration: none;
-                
               }
-            
             }
             .carousel-inner{
               .carousel-item{
@@ -292,20 +276,11 @@ main{
             display: inline; 
           }
         }
-        
-        //.vaciarCarrito{
-         // margin-left: 20px;
-        //}
-        //.realizarPago{
-          //margin-right: 20px;
-        //}
       }
     }
     .ventanaModal-displayBlock {
       display: block;
     } 
-
-    //Agregar ventana Modal Pago
     .ventana-modalPago{
       position:fixed;
       top: 0;
@@ -326,7 +301,6 @@ main{
         text-align: center;
         opacity: 1;
         overflow-x: auto;
-
         .hrParteSuperior{
           .hrDetalleCompra{
             width: 90%;
@@ -361,7 +335,6 @@ main{
             font-weight: 600;
             font-family: $fontFamily-primary;
           }
-          
           .contenedorDetalle {
             padding-bottom: 1.3rem !important;
             .detalleParagraph {
@@ -441,14 +414,12 @@ main{
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 30px;
-                //border: solid 2px black;
                 display: flex;
                 justify-content: space-evenly;
                 align-content: center;
                 .cancelPago{
                   width: 100px;
                   height: 30px;
-                  //margin-left: 20px;
                   padding-top: 3px;
                   margin-bottom: 10px !important;
                   background-color: $color-primary;
@@ -880,9 +851,6 @@ main .main__container .section__item{
           }
         }
       }  
-
-
-      /****************************************************************/
       .ventana-modal{
         .modal-content {
           width: 45%;
@@ -900,7 +868,6 @@ main .main__container .section__item{
           }
         }
       }
-
       .ventana-modalPago{
         .modal-contentPago {
           width: 45%;

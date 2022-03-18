@@ -1,4 +1,4 @@
-// Evento 
+// Evento submit para mandar mensaje de contacto mediante api formsubmit
 $("#formContact").submit(function (e) { 
   e.preventDefault();
   fetch("https://formsubmit.co/ajax/ing.pierredindy@gmail.com", {

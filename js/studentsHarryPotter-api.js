@@ -5,7 +5,7 @@ const imageDirector = document.getElementById("imageDirector");
 const nombreDirector = document.getElementById("nombreDirector");
 
 //Declaraciones de funciones
-function simuladorConsultaApiProductos () {
+function consultaApiHerokuappStudents () {
   const URL = "https://hp-api.herokuapp.com/api/characters/students";
   $.ajax({
     type: "GET",
@@ -22,4 +22,4 @@ function simuladorConsultaApiProductos () {
 }
 
 //Invocación de función
-simuladorConsultaApiProductos();
+consultaApiHerokuappStudents ();

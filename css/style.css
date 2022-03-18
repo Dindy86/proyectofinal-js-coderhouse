@@ -875,7 +875,6 @@ main .main__container .section__item .containerItems .card-transition:hover {
   /*---------main-------*/
   main .main__container {
     width: 95%;
-    /****************************************************************/
   }
   main .main__container .container__carousel__aside .subContainer__carousel__aside {
     width: 100%;

@@ -341,9 +341,7 @@ function llamarAgregarProductoAlCarrito() {
   for( const button of cardbutton) {
     button.addEventListener("click", function(e) {
       const button = e.target;
-      //let inputCantidad = Number(button.parentElement.children[1].value);
       agregarProductoAlCarrito(button.id, 1);
-      //button.parentElement.children[1].value="1";
     })
   }
 }
